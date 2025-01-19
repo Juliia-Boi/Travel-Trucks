@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.tabs {
+  display: flex;
+  flex-flow: row;
+  gap: 40px;
+  margin-bottom: 44px;
+  border-bottom: 1px solid rgb(218, 221, 225);
+}
+
+.tab {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+}
+
+.activeTab {
+  border-bottom: 4px solid var(--button-hover);
+  color: #101828;
+}
+
+.detailsLayout {
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+}
+
+.outletContainer {
+  flex-grow: 1;
+  min-height: 100%;
+}
+
+.bookingForm {
+  flex-shrink: 0;
+  width: 400px;
+}

@@ -1,0 +1,185 @@
+.container {
+  padding: 48px 64px;
+  background: var(--white);
+  border-radius: 8px;
+  margin-top: 72px;
+  width: 488px;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray);
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background: var(--inputs);
+  border: none;
+  border-radius: 12px;
+  padding: 18px 48px 18px 48px;
+  width: 360px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+  margin-bottom: 40px;
+  outline: none;
+}
+
+.input:focus {
+  border: 1px solid var(--button-hover);
+}
+
+.iconInput {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 19%;
+  left: 20px;
+  fill: var(--main);
+  /* transform: translateY(-50%); */
+}
+
+.dropdown {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+  list-style: none;
+  padding: 8px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.dropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdownItem.active {
+  background-color: #e0e0e0;
+}
+
+.filterText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--main);
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: wrap;
+  gap: 8px 10px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(16, 24, 40, 0.2);
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: outline 0.3s ease 0s;
+  border: 1px solid var(--gray-light);
+  border-radius: 12px;
+  padding: 16px 18px;
+  width: 112px;
+  height: 96px;
+  background-color: transparent;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--main);
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.button.active {
+  outline: solid 1px var(--button-hover);
+}
+
+.button:hover {
+  outline: solid 1px var(--button-hover);
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchButton {
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  cursor: pointer;
+  background-color: var(--button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.searchButton:hover {
+  background: var(--button-hover);
+}
+
+.resButton {
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  cursor: pointer;
+  background-color: var(--button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.resButton:hover {
+  background: var(--button-hover);
+}

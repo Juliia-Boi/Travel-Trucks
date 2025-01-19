@@ -1,0 +1,8 @@
+.section {
+  margin-bottom: 72px;
+  margin-top: 72px;
+}
+
+.card__container {
+  display: flex;
+}
