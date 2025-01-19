@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./HomePage.module.css";
 
 const HomePage = () => {
@@ -9,9 +10,9 @@ const HomePage = () => {
         <p className={style.heroSubtitle}>
           You can find everything you want in our catalog
         </p>
-        <a className={style.viewNowBtn} href="/catalog">
+        <Link className={style.viewNowBtn} to="/catalog">
           View Now
-        </a>
+        </Link>
       </div>
     </main>
   );

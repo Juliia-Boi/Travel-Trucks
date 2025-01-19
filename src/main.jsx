@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <CamperDetailsPage />,
         children: [
           {
-            index: true, // Автоматический рендеринг при открытии
+            index: true,
             element: <InformationForm />,
           },
           {
@@ -43,10 +43,6 @@ const router = createBrowserRouter([
           },
         ],
       },
-      // {
-      //   path: "/favorite",
-      //   element: <FavoritePage />,
-      // },
     ],
   },
 ]);
